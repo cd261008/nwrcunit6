@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description"content="Gaelic, Gym and Merchandise">
     <title>Courses</title>
 
     <!--Custom css file-->
@@ -39,7 +40,7 @@
     <div class="container-fluid">
    
       <!-- Brand -->
-     <a class="navbar-brand fw-bold" href="#">Glory Gaelic Days</a>
+     <a class="navbar-brand fw-bold" href="index.html">Glory Gaelic Days</a>
 
       <!-- Nav links -->
   <ul class="nav nav-pills">
@@ -63,21 +64,122 @@
 </ul>
     </div>      
   </nav>
-<ul class="nav nav-underline">
-  <li class="nav-item">
-    <a class="nav-link" href="weightlifting.html">Weightlifting</a>
+  <!--nav bar end-->
+  <!--Tab Section Start-->
+<ul class="nav nav-tabs" id="myTabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Weightlifting</button>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="spin.html">Spin class</a>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Spin</button>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="yoga.html">Yoga</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="circuit.html">Circuit</a>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Circuit</button>
   </li>
 </ul>
-        <!--nav bar end-->
+
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+    <p>Content for Weightlifting</p>
+             <br>
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Image of Exercise</th>
+      <th scope="col">Name of Exercise</th>
+      <th scope="col">Sets</th>
+      <th scope="col">Reps</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="text-center" scope="row"><img width=200 height=200 src="images/benchpress.webp"></th>
+      <td>Barbell Bench Press</td>
+      <td>1 warmup set
+        <br>
+         3 working sets</td>
+      <td>6-12</td>
+    </tr>
+    <tr>
+      <th class="text-center" scope="row"><img width=200 height=200 src="images/squat.1.jpg"></th>
+      <td>Squat</td>
+      <td>1 warmup sets
+        <br>
+         3 working sets</td>
+      <td>6-12</td>
+    </tr>
+    <tr>
+      <th class="text-center" scope="row"><img width=200 height=200 src="images/deadlift.jpg"></th>
+      <td>Deadlift</td>
+      <td>1 warmup set
+        <br>
+         3 working sets</td>
+      <td>6-12</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+  <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+    <p>Content for Spin</p>
+      <br>
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Image of Exercise</th>
+      <th scope="col">Name of Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="text-center" scope="row"><img width=200 height=200 src="images/beginnerclasstospin.jpg"></th>
+      <td>Cycling Image 1</td>
+    <tr>
+      <th class="text-center" scope="row"><img width=200 height=200 src="images/intermediate-spin-class.jpg"></th>
+      <td>Cycling Image 2</td>
+    <tr>
+      <th class="text-center" scope="row"><img width=200 height=200 src="images/advancedspinclass.webp"></th>
+      <td>Cycling Image 3</td>
+    </tr>
+  </table>
+  </div>
+  <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+    <p>Content for Circuit</p> <br>
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Image of Exercise</th>
+      <th scope="col">Name of Exercise</th>
+      <th scope="col">Sets</th>
+      <th scope="col">Reps</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="text-center" scope="row"><img width=200 height=200 src="images/push-up.webp"></th>
+      <td>Push-ups</td>
+      <td>
+         3 working sets</td>
+      <td>10-30</td>
+    </tr>
+    <tr>
+      <th class="text-center" scope="row"><img width=200 height=200 src="images/pull-ups.jpg"></th>
+      <td>Pull-ups</td>
+      <td>3 working sets</td>
+      <td>6-10 Reps</td>
+    </tr>
+    <tr>
+      <th class="text-center" scope="row"><img width=200 height=200 src="images/situps.webp"></th>
+      <td>Sit-ups</td>
+      <td> 3 working sets</td>
+      <td>10-30</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+<!--Tab Section End-->
+        
         <!--Main Content Start-->
         <div class="container">
           <h1 class="text-center">Courses</h1>
